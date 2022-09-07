@@ -1,0 +1,130 @@
+#bodyWrapper{
+    display: flex;
+   
+}
+
+
+
+.pictureContainer{
+    width: 33%;
+    height: 100vh;
+    background-color: rgb(77, 119, 184);
+    position: relative;
+    background-position: center;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pictureContainer img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.textContainer{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    opacity: 0.5;
+    background-color: rgb(5, 12, 22);
+    height: 200px;
+    margin-top: 150px;
+
+}
+
+.textContainer h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.textContainer p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;  
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+}
+
+.signupFormSection{
+background-color: rgb(6, 6, 6);
+display: flex; 
+ gap: 10px;
+padding-left: 100px;
+height: 200px;
+width: 100%;
+
+}
+
+
+
+
+.water{
+    background-color:#0000;
+    flex-grow: 1;
+    width: 100%;
+    padding-left: 100px;
+
+}
+
+.signupFormSection h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    align-self: center;
+    margin-right: 5%;
+}
+
+.signupFormSection p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1 rem;
+    color: white;
+}
+
+
+.signupFormSection input{
+    border: none;
+    background-color: rgb(39, 38, 38);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.signupRight {
+    flex-grow: 1 1 0%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 6, 6);
+}
+
+.signupRight h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    color: white;
+    margin-right: 5%;
+}
+#formSection{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 6, 6);
+    align-items: center;
+    justify-content: center;
+    
+}
